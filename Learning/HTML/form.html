@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="">
+        <div>
+            <h2>Personal Information</h2>
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" name="firstName" id="first" placeholder="Enter First Name" required>
+            </p>
+            <p>
+                <label for="last">Last Name</label>
+                <input type="text" name="lastName" id="last" placeholder="Enter Last Name">
+            </p>
+            <p>
+                <label for="devision">Select Age</label>
+                <select name="devision" id="devision" required>
+                    <option value="kids">Under 18</option>
+                    <option value="young">18 to 35</option>
+                    <option value="midAge">35 to 60</option>
+                    <option value="old">Above 60</option>
+                </select>
+            </p>
+            <p>
+                <label for="email">Emaid ID</label>
+                <input type="email" name="email" id="email" placeholder="Email ID" required>
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </p>
+        </div>
+        <div>
+            <h2>Race Options</h2>
+            <p>Select a Race:</p>
+            <div>
+                <input type="radio" name="race" id="funRun" value="funRun">
+                <label for="funRun">Fun Run (5 km)</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="half" value="half">
+                <label for="half">Half Marathon (10 km)</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="full" value="full">
+                <label for="full">Full Marathon (20 km)</label>
+            </div>
+        </div>
+        <div>
+            <p>
+                <button>Register</button>
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
